@@ -54,23 +54,23 @@ For more advanced use cases, consider libraries like ```yagmail``` or ```smtplib
 
 Implement retry logic for temporary failures (e.g., network issues).
 
-### Further Resources
+### Further Resources   
 #### 1. Python Documentation:
 
-[smtplib Library](https://docs.python.org/3/library/smtplib.html)
+[smtplib Library](https://docs.python.org/3/library/smtplib.html)   
 [email.mime Library](https://docs.python.org/3/library/email.mime.html)
 
 #### 2. SMTP Services:
 
-[Gmail SMTP Configuration](https://support.google.com/a/answer/176600?hl=en)
+[Gmail SMTP Configuration](https://support.google.com/a/answer/176600?hl=en)   
 [SendGrid SMTP API](https://sendgrid.com/docs/API_Reference/SMTP_API/)
 
 #### 3. GitHub Projects:
 
-[Flask-Mail](https://github.com/mattupstate/flask-mail): A Flask extension for sending emails.
+[Flask-Mail](https://github.com/mattupstate/flask-mail): A Flask extension for sending emails.   
 [Postfix SMTP Server](https://github.com/vdukhovni/postfix): Open-source SMTP server.
 
-### Project Ideas
+### Project Ideas  
 #### 1. Email Notification System:
 Build a system that sends email notifications for events (e.g., reminders, alerts).
 
