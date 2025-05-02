@@ -32,29 +32,25 @@ This is a Python example of using the built-in ```smtplib``` library to send an 
 
 Uses a ```try-except``` block to catch and display any errors during the email sending process.
 
-### Tips & Tricks
+### Tips & Tricks   
 #### 1. Avoid Hardcoding Passwords:
 
 Use environment variables or a secrets manager to store your email password securely.
 For Gmail, generate an App Password to use with third-party apps.
 
-#### 2. Use HTML Emails:
-
+#### 2. Use HTML Emails:  
 You can attach an HTML version of the email body using ```MIMEText(body, "html").```
 
-#### 3. Test Locally:
-
+#### 3. Test Locally:  
 Use tools like [MailHog](https://github.com/mailhog/MailHog) to test email functionality locally without actually sending emails.
 
-#### 4. SMTP Libraries:
-
+#### 4. SMTP Libraries:  
 For more advanced use cases, consider libraries like ```yagmail``` or ```smtplib``` with additional features like file attachments.
 
-#### 5. Handle Errors Gracefully:
-
+#### 5. Handle Errors Gracefully:  
 Implement retry logic for temporary failures (e.g., network issues).
 
-### Further Resources   
+### Further Resources:   
 #### 1. Python Documentation:
 
 [smtplib Library](https://docs.python.org/3/library/smtplib.html)   
@@ -70,7 +66,7 @@ Implement retry logic for temporary failures (e.g., network issues).
 [Flask-Mail](https://github.com/mattupstate/flask-mail): A Flask extension for sending emails.   
 [Postfix SMTP Server](https://github.com/vdukhovni/postfix): Open-source SMTP server.
 
-### Project Ideas  
+### Project Ideas:    
 #### 1. Email Notification System:
 Build a system that sends email notifications for events (e.g., reminders, alerts).
 
