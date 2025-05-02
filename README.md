@@ -1,4 +1,5 @@
 ## Sending Email With SMTP Server   
+### This is a Python example of using the built-in ```smtplib``` library to send an email via an SMTP server.
 ```
 import smtplib
 from email.mime.text import MIMEText
@@ -45,10 +46,7 @@ def send_email():
 
 if __name__ == "__main__":
     send_email()
-```
-
-This is a Python example of using the built-in ```smtplib``` library to send an email via an SMTP server.
-
+```     
 ### Explanation of the Code
 #### 1. Importing Libraries:
 
